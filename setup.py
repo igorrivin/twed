@@ -22,7 +22,7 @@ setup(
     url='https://github.com/igorrivin/twed.git',
     packages=find_packages(),
     package_dir={'twed':'twed'},
-    include_package_data=True
+    include_package_data=True,
     install_requires=REQUIREMENTS,
     zip_safe=False,
     keywords='Time Warp Edit Distance',
