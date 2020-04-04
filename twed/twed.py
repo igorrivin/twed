@@ -1,5 +1,5 @@
 import numpy as np
-from numba impoer jit
+from numba import jit
 
 
 def mypad1s(ar):
