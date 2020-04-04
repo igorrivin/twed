@@ -97,7 +97,7 @@ def twed(A, timeSA, B, timeSB, nu, _lambda):
     distance = DP[n - 1, m - 1]
     return distance, DP
 
-    @jit(nopython=True, fastmath=True)
+@jit(nopython=True, fastmath=True)
 def backtracking(DP):
     # [ best_path ] = BACKTRACKING ( DP )
     # Compute the most cost efficient path
