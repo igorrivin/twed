@@ -32,4 +32,4 @@ setup(
         'Programming Language :: Python :: 3.7',
     ]
 )
-© 2020 GitHub, Inc.
+#© 2020 GitHub, Inc.
