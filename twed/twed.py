@@ -21,7 +21,7 @@ def Dlp(A, B, p=2):
   return np.linalg.norm(A-B, p)
 
 @jit(nopython=True, fastmath=True)
-def twed(A, timeSA, B, timeSB, nu, _lambda):
+def TWED(A, timeSA, B, timeSB, nu, _lambda):
     # [distance, DP] = TWED( A, timeSA, B, timeSB, lambda, nu )
     # Compute Time Warp Edit Distance (TWED) for given time series A and B
     #
